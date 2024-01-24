@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.17.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "nac-task-viewer",
+    "libraryId": "1c729b73-6866-42b1-a1fe-e56ce0203bf3",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "NACTaskViewer",
+    "solutionShortDescription": "NACTaskViewer description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

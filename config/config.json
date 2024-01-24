@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "nac-task-viewer-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/nacTaskViewer/NacTaskViewerWebPart.js",
+          "manifest": "./src/webparts/nacTaskViewer/NacTaskViewerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "NacTaskViewerWebPartStrings": "lib/webparts/nacTaskViewer/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

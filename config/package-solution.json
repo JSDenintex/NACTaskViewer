@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "nac-task-viewer-client-side-solution",
+    "id": "1c729b73-6866-42b1-a1fe-e56ce0203bf3",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "NACTaskViewer description"
+      },
+      "longDescription": {
+        "default": "NACTaskViewer description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "nac-task-viewer Feature",
+        "description": "The feature that activates elements of the nac-task-viewer solution.",
+        "id": "f119b33f-39a1-4b6f-b38b-34dfaf1d4c3f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/nac-task-viewer.sppkg"
+  }
+}
